@@ -44,6 +44,39 @@
 # val = 10 * 4 + 30 * 2
 # puts val
 
-puts "Enter length in inches:"
-val = gets.to_i * 2.54
-puts "that is #{val} centimeters"
+##############################
+##    Code Activity 1       ##
+##############################
+
+# puts "Enter length in inches:"
+# val = gets.to_i * 2.54
+# puts "that is #{val} centimeters"
+
+##############################
+
+# puts "0 modulo 3: #{0 % 3}"
+# puts "1 modulo 3: #{1 % 3}"
+# puts "2 modulo 3: #{2 % 3}"
+# puts "3 modulo 3: #{3 % 3}"
+# puts "4 modulo 3: #{4 % 3}"
+# puts "5 modulo 3: #{5 % 3}"
+# puts "6 modulo 3: #{6 % 3}"
+# puts "7 modulo 3: #{7 % 3}"
+# puts "8 modulo 3: #{8 % 3}"
+
+# def double(num)
+#    num * 2
+# end
+
+# val = double(10)
+# puts val
+
+def pythagorean_theorem(a, b)
+    a_squared = a * a
+    b_squared = b * b
+    a_squared_plus_b_squared = a_squared + b_squared
+
+    return Math.sqrt(a_squared_plus_b_squared)
+end
+
+puts pythagorean_theorem(3, 4)
