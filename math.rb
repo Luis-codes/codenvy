@@ -85,5 +85,16 @@
 
 # puts pythagorean_theorem(5, 12)
 
+# puts "Enter weight in pounds:"
+# number = gets.to_i
+
+# answer = (number / 2.2046)
+# puts "Your weight is #{answer} Kilograms"
 
 
+def pounds(num)
+	num = num / 2.2046
+	puts num
+end
+
+pounds(120)
