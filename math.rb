@@ -92,9 +92,15 @@
 # puts "Your weight is #{answer} Kilograms"
 
 
-def pounds(num)
-	num = num / 2.2046
-	puts num
-end
+# def pounds(num)
+# 	num = num / 2.2046
+# 	puts num
+# end
 
-pounds(120)
+# pounds(120)
+
+puts "Enter degrees in Celcius:"
+input = gets.to_f
+
+f = input * 9/5 + 32
+puts "the temperature is #{f} degrees Fahrenheit"
